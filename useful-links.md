@@ -1,6 +1,6 @@
 # Useful Links
 
-There are no well-condensed fonts of 2D graphics knowledge. Rather, it is dispersed over a wide number of blogs, pages, articles, and brains. This page attempts to collate _links_ to some of this information. 
+There are no well-condensed sources of 2D graphics knowledge. Rather, it is dispersed over a wide number of blogs, pages, articles, and brains. This page attempts to collate _links_ to some of this information. 
 
 ### History
 
