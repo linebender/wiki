@@ -14,7 +14,7 @@ On my Mac, when “Scroll direction: Natural” is checked, “away from user”
 See significant discussion in [Chromium issue 227454](https://bugs.chromium.org/p/chromium/issues/detail?id=227454), including having got the polarity wrong.
 
 ## Windows
-[WM_MOUSEWHEEL message](https://docs.microsoft.com/en-us/windows/win32/inputdev/wm-mousewheel) specifies that rolling away from the user is a positive number. Rightward motion on the trackpad is a positive number.
+[The doc for WM_MOUSEWHEEL message](https://docs.microsoft.com/en-us/windows/win32/inputdev/wm-mousewheel) specifies that rolling away from the user is a positive number. Rightward motion on the trackpad is a positive number.
 
 One bump of the external scroll wheel is 120, consistent with documentation.
 
