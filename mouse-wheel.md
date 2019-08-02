@@ -21,7 +21,7 @@ One bump of the external scroll wheel is 120, consistent with documentation.
 The sensitivity setting should be read from `SystemParametersInfo`.
 
 ## macOS
-[The doc for NSEvent scrollingDeltaY](https://developer.apple.com/documentation/appkit/nsevent/1535387-scrollingdeltay)is not helpful.
+[The doc for NSEvent scrollingDeltaY](https://developer.apple.com/documentation/appkit/nsevent/1535387-scrollingdeltay) is not helpful.
 
 The value of `scrollingDeltaX` and `scrollingDeltaY` is the negative of the web value. Note also, `hasPreciseScrollingDeltas` is true for trackpad and false for external mice.
 
