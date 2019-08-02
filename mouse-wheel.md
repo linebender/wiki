@@ -1,6 +1,6 @@
 # Mouse wheel notes
 
-What does scrolling actually mean? It depends on the platform.
+What does scrolling actually mean? It depends on the platform and on the mouse.
 
 See [druid#68](https://github.com/xi-editor/druid/pull/68) for the code that implements this. There are some additional links and comments in the review.
 
@@ -27,3 +27,6 @@ The value of `scrollingDeltaX` and `scrollingDeltaY` is the negative of the web 
 
 The value of `scrollingDeltaX` and `scrollingDeltaY` inverts when the “Scroll direction: Natural” setting is toggled, i.e .the setting is applied before the event is given to the app.
 
+## External mouse wheel vs trackpad
+
+An external mouse wheel delta is traditionally multiplied by 32, while a touchpad delta is not. Here's the [corresponding Makepad version](https://github.com/makepad/makepad/blob/07f1e72ba19f327d56c6bdfe4211358b2aaee006/render/src/cx_cocoa.rs#L333). Also note that [Winit keeps the distinction](https://github.com/rust-windowing/winit/blob/34db2d7d4c1deebbb706194113853591e7c6b60c/src/event.rs#L360) (using LineDelta for an ext mouse wheel, PixelDelta for the trackpad).
