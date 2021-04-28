@@ -55,6 +55,7 @@ There are no well-condensed sources of 2D graphics knowledge. Rather, it is disp
 ### Mathematics
 
 * [Inclusion of a Point in a Polygon](http://geomalgorithms.com/a03-_inclusion.html) \(winding number\)
+* [2D graphics rendering course](http://w3.impa.br/~diego/teaching/2021.0/index.html)
 
 ### Repositories of interest
 
