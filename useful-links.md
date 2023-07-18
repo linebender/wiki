@@ -22,6 +22,11 @@ There are no well-condensed sources of 2D graphics knowledge. Rather, it is disp
 * [raphlinus: "A crate I want: 2d graphics"](https://raphlinus.github.io/rust/graphics/2018/10/11/2d-graphics.html)
 * [nical: Following up on the 2d graphics in Rust discussion](https://nical.github.io/posts/rust-2d-graphics-01.html)
 
+#### Rust 2D or 3D libs (that aren't `kurbo`)
+
+* [`euclid`](https://lib.rs/crates/euclid) and [`lyon_geom`](https://lib.rs/crates/lyon_geom)
+* [`arcs` by Michael-F-Bryan](https://github.com/Michael-F-Bryan/arcs)
+
 ### 2D antialiasing and font rasterization
 
 #### Trapezoidal pixel coverage algorithm
