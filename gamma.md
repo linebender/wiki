@@ -1,5 +1,9 @@
 # Gamma
 
+{% hint style="info" %}
+This wiki is now **archived**. You should instead visit the [Linebender wiki](https://linebender.org/wiki/) at <https://linebender.org/wiki>
+{% endhint %}
+
 One of the trickiest aspects to get right in 2D graphics is gamma. A good starting point on the topic is John Novak’s blog, [What Every Coder Should Know About Gamma](https://blog.johnnovak.net/2016/09/21/what-every-coder-should-know-about-gamma/).
 
 Most of what this page says is right, but I bristle a little at the characterization of blending in linear sRGB space as “correct.” Very simply, in many cases it just looks worse. We see that clearly in the examples in the [Massively-Parallel Vector Graphics](http://w3.impa.br/~diego/projects/GanEtAl14/) project; the text in the renders with correct gamma looks weak and spindly, while the versions that blend text in a perceptual sRGB space look much better.
@@ -18,3 +22,6 @@ As a final critique of Novak’s essay, I found some of the gradient examples un
 
 That said, especially at 4k, the appearance of vector content antialiased and blended in a linear space is _vastly_ superior, with almost all of the “ropiness”ß gone. Image resampling is similarly much smoother. I agree with Novak that linear blending should be at the basis of rendering, but disagree rather strongly with the assertion that “This is pretty much all there is to gamma encoding and decoding.” Without some attention paid to the fate of very thin strokes, users will be less pleased with correct rendering.
 
+{% hint style="info" %}
+This wiki is now **archived**. You should instead visit the [Linebender wiki](https://linebender.org/wiki/) at <https://linebender.org/wiki>
+{% endhint %}

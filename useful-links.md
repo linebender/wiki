@@ -1,5 +1,9 @@
 # Useful Links
 
+{% hint style="info" %}
+This wiki is now **archived**. You should instead visit the [Linebender wiki](https://linebender.org/wiki/) at <https://linebender.org/wiki>
+{% endhint %}
+
 There are no well-condensed sources of 2D graphics knowledge. Rather, it is dispersed over a wide number of blogs, pages, articles, and brains. This page attempts to collate _links_ to some of this information. 
 
 ### History
@@ -80,5 +84,6 @@ There are no well-condensed sources of 2D graphics knowledge. Rather, it is disp
 * [Thoughts on piet-metal](https://xi.zulipchat.com/#narrow/stream/197075-gpu/topic/Thoughts.20on.20piet-metal)
 * [gpu stream](https://xi.zulipchat.com/#narrow/stream/197075-gpu)
 
-
-
+{% hint style="info" %}
+This wiki is now **archived**. You should instead visit the [Linebender wiki](https://linebender.org/wiki/) at <https://linebender.org/wiki>
+{% endhint %}

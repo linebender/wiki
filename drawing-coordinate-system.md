@@ -1,5 +1,9 @@
 # Drawing: coordinate system
 
+{% hint style="info" %}
+This wiki is now **archived**. You should instead visit the [Linebender wiki](https://linebender.org/wiki/) at <https://linebender.org/wiki>
+{% endhint %}
+
 ## Device independence
 
 Distinguishing between logical user space coordinates and physical device space coordinates
@@ -33,3 +37,7 @@ Precedence:
 ### Status
 
 [open](https://github.com/linebender/kurbo/issues/4): use _Y-coordinates down_?
+
+{% hint style="info" %}
+This wiki is now **archived**. You should instead visit the [Linebender wiki](https://linebender.org/wiki/) at <https://linebender.org/wiki>
+{% endhint %}

@@ -7,4 +7,3 @@
 * [Immediate mode](immediate-mode.md)
 * [Mouse wheel](mouse-wheel.md)
 * [Useful links](useful-links.md)
-

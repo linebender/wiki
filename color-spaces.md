@@ -1,5 +1,9 @@
 # Color spaces
 
+{% hint style="info" %}
+This wiki is now **archived**. You should instead visit the [Linebender wiki](https://linebender.org/wiki/) at <https://linebender.org/wiki>
+{% endhint %}
+
 Many vector shapes in the druid/piet world are drawn with a solid color, and others are drawn with gradients which are defined in terms of colors. This raises the question: what’s the best way to specify colors?
 
 The simplest approach is to use RGB colors. These are well understood, and even standardized in the form of the [sRGB] colorspace. However, it’s not ideal from a color communication perspective, because it’s hard to intuitively understand the relationship between the color and the numeric or hex code. For example, it’s extremely non-obvious when two colors have the same hue. When designing colorways for user interfaces, it’s often desirable to have highlight and accent colors drawn from the same hue, for example.
@@ -28,6 +32,9 @@ Following freiefarbe.de, we chose the L*a*b*-based approach because of its simpl
 
 * [Rec.2020](https://en.wikipedia.org/wiki/Rec._2020)
 
+{% hint style="info" %}
+This wiki is now **archived**. You should instead visit the [Linebender wiki](https://linebender.org/wiki/) at <https://linebender.org/wiki>
+{% endhint %}
 
 [piet#70]: https://github.com/linebender/piet/pull/70
 [sRGB]: https://en.wikipedia.org/wiki/SRGB
